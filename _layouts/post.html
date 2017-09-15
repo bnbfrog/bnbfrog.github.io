@@ -16,7 +16,7 @@
                     Article Image
                 </div>
                 <div class="post-meta">
-                    <!--<h1 class="post-title">{{ page.title }}</h1>-->
+                    <h1 class="post-title">{{ page.title }}</h1>
                     <div class="cf post-meta-text">
                         <!--<div class="author-image" style="background-image: url(/assets/authors/{{ page.author | slugify: 'pretty' }}.jpg)">Blog Logo</div>
                         <h4 class="author-name" itemprop="author">{{ page.author }}</h4>
@@ -66,7 +66,7 @@
                     {% endif %} {% endfor %}
                 </section>
             </footer>
-            <div class="bottom-teaser cf">
+            <!--<div class="bottom-teaser cf">
                 <div class="isLeft">
                     <h5 class="index-headline featured"><span>Written by</span></h5>
                     <section class="author">
@@ -79,16 +79,16 @@
                 </div>
                 
                 <div class="isRight">
-                    <h5 class="index-headline featured"><span><a href="{{ page.imageSrc }}">Image source</a></span></h5>
+                    <!--<h5 class="index-headline featured"><span><a href="{{ page.imageSrc }}">Image source</a></span></h5>-->
 
-                    <footer class="site-footer">
+                    <!--<footer class="site-footer">
                         <a class="subscribe" href="{{ " /feed.xml " | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to our feed.</span></a>
                         <div class="inner">
-                            <section class="copyright">All content copyright <a href="{{blog.url}}/">amdocs</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
-                        </div>
+                            <!--<section class="copyright">All content copyright <a href="{{blog.url}}/">our team and person in picture</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>-->
+                        <!--</div>
                     </footer>
                 </div>
-            </div>
+            </div>-->
             {%if site.disqus %}
             <div id="disqus_thread"></div>
             <script type="text/javascript">
